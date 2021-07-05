@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Route, Switch, BrowserRouter } from 'react-router-dom'
+
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <BrowserRouter>
+      <div>
+        <h1>Hello world!</h1>
+      </div>
+    </BrowserRouter>
   )
 }
 
 
 export default App
-
