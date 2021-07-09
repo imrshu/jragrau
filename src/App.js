@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="boxed">
         <Header />
         <Footer />
       </div>
