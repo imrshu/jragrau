@@ -1,11 +1,128 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 
 class Footer extends Component {
     render() {
         return (
-            <div>
-                
+            <footer className="footer">
+   <div className="footer-widgets">
+      <div className="container">
+         <div className="row">
+            <div className="col-md-4">
+               <div className="widget widget-text">
+                  <h4 className="widget-title">About Us</h4>
+                  <div className="text">
+                     <p>We touch the lives of millions of people across the world every day with the testing solutions that we produce.</p>
+                  </div>
+                  <ul class="flat-socials">
+                        <li class="dribbble">
+                            <Link to="index-header-classic.html#">
+                                <i class="fa fa-dribbble"></i>
+                            </Link>
+                        </li>
+                        <li class="twitter">
+                            <Link to="index-header-classic.html#">
+                                <i class="fa fa-twitter"></i>
+                            </Link>
+                        </li>
+                        <li class="facebook">
+                            <Link to="index-header-classic.html#">
+                                <i class="fa fa-facebook"></i>
+                            </Link>
+                        </li>
+                        <li class="linkedin">
+                            <Link to="index-header-classic.html#">
+                                <i class="fa fa-linkedin"></i>
+                            </Link>
+                        </li>
+                        <li class="behance">
+                            <Link to="index-header-classic.html#">
+                                <i class="fa fa-behance"></i>
+                            </Link>
+                        </li>
+                    </ul>
+               </div>
             </div>
+            <div className="col-md-4">
+               <div className="widget widget-categories">
+                  <h4 className="widget-title">Quick Links</h4>
+                  <ul className="unstyled style1">
+                     <li><Link to="index-header-classic.html#">About Us</Link></li>
+                     <li><Link to="index-header-classic.html#">Awards</Link></li>
+                     <li><Link to="index-header-classic.html#">Community</Link></li>
+                     <li><Link to="index-header-classic.html#">Events</Link></li>
+                     <li><Link to="index-header-classic.html#">Contact Us</Link></li>
+                  </ul>
+                  <ul className="unstyled">
+                     <li><Link to="index-header-classic.html#">Faqs Classic</Link></li>
+                     <li><Link to="index-header-classic.html#">Manufacturing</Link></li>
+                     <li><Link to="index-header-classic.html#">Calibration</Link></li>
+                     <li><Link to="index-header-classic.html#">Testing Machines</Link></li>
+                     <li><Link to="index-header-classic.html#">Sensors</Link></li>
+                     <li><Link to="index-header-classic.html#">Custom Machinery</Link></li>
+                  </ul>
+               </div>
+            </div>
+            <div className="col-md-4">
+               <div className="widget widget-instagram">
+                  <h4 className="widget-title">Instagram</h4>
+                  <ul className="clearfix">
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/1.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/2.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/3.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="thumb images-hover images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/4.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/5.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/6.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/7.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                     <li className="last">
+                        <div className="thumb images-hover">
+                           <div className="overlay"> </div>
+                           <Link to="index-header-classic.html#"> <img src="images/flickr/8.jpg" alt="image" /> </Link>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
         )
     }
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
+import { ExternalLink } from 'react-external-link';
+
 
 class Header extends Component {
     render() {
@@ -20,7 +22,7 @@ class Header extends Component {
                                 <div className="social-links">
                                     <a href="index-header-classic.html#"><i className="fa fa-twitter"></i></a>
                                     <a href="index-header-classic.html#"><i className="fa fa-facebook"></i></a>
-                                    <a href="https://www.linkedin.com/company/jragrau-industries/about/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
+                                    <ExternalLink href="https://www.linkedin.com/company/jragrau-industries/about/"><i className="fa fa-linkedin"></i></ExternalLink>
                                     <a href="index-header-classic.html#"><i className="fa fa-instagram"></i></a>
                                 </div>
                             </div>
