@@ -12,8 +12,8 @@ class Header extends Component {
                         <div className="row">
                             <div className="col-md-6">
                             <ul className="flat-information">
-                                <li className="phone"><Link to="http://themesflat.com/html/monster/+84905010025">Call Us: +84 905 01 00 25</Link></li>
-                                <li className="email"><Link to="mailto:Themesflat@gmail.com">Email Us: themesflat@gmail.com</Link></li>
+                                <li className="phone"><a href="tel://009811490150">Call Us: +91 9811490150</a></li>
+                                <li className="email"><a href="mailto:info@jragrau.com">Email Us: info@jragrau.com</a></li>
                             </ul>
                             </div>
                             <div className="col-md-6">
@@ -34,14 +34,6 @@ class Header extends Component {
                             <div className="col-md-12">
                             <div className="header-wrap clearfix">
                                 <div id="logo" className="logo"><Link to="index.html" rel="home"> <img src={logo} alt="Jragrau Industries Brand Logo" width="150"/> </Link></div>
-                                <div className="wrap-icon-nav">
-                                    <div className="show-search">
-                                        <a href="index-header-classic.html#"><i className="fa fa-search"></i></a>
-                                    </div>
-                                    <div className="cart">
-                                        <a href="index-header-classic.html#"><i className="fa fa-shopping-basket"></i><span className="number-cart">0</span></a>
-                                    </div>
-                                </div>
                                 <div className="nav-wrap">
                                     <div className="btn-menu"> </div>
                                     <nav id="mainnav" className="mainnav">
