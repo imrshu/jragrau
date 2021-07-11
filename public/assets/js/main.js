@@ -198,12 +198,12 @@
         });
     };
     
-    var retinaLogos = function() {
-      var retina = window.devicePixelRatio > 1 ? true : false;
-        if(retina) {
-            $('.header .logo').find('img').attr( {src:'./images/logo@2x.png',width:'154',height:'56'} );   
-        }
-    };    
+    // var retinaLogos = function() {
+    //   var retina = window.devicePixelRatio > 1 ? true : false;
+    //     if(retina) {
+    //         $('.header .logo').find('img').attr( {src:'./images/logo@2x.png',width:'154',height:'56'} );   
+    //     }
+    // };
 
     var ajaxContactForm = function() {  
         $('#contactform').each(function() {
@@ -503,7 +503,7 @@
         topSearch();
         flatreviews();
         simpleSliderofBlog();
-        retinaLogos();     
+        // retinaLogos();
         responsiveMenu();        
         blogMasory();
         portfolioIsotope();
