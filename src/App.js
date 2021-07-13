@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import About_us from './components/About_us'
 import Navbar from './components/Navbar'
+import Contact_us from './components/Contact_us'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Footer />
         <Navbar />
         <About_us />
+        <Contact_us />
       </div>
     </BrowserRouter>
   )
