@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 
-class About_us extends Component {
+class AboutUs extends Component {
     render() {
         return (
             <div>
@@ -17,7 +17,7 @@ class About_us extends Component {
                         <div className="breadcrumbs">
                         <ul>
                             <li className="home">
-                                <Link to="/About_us">Home</Link></li>
+                                <Link to="/">Home</Link></li>
                             <li>Contact</li>
                         </ul>
                         </div>
@@ -155,4 +155,4 @@ class About_us extends Component {
     }
 }
 
-export default About_us
+export default AboutUs

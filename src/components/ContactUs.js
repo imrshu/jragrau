@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 
-class Contact_us extends Component {
+class ContactUs extends Component {
     render() {
         return (
             <div>
@@ -72,4 +72,4 @@ class Contact_us extends Component {
     }
 }
 
-export default Contact_us
+export default ContactUs
