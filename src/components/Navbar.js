@@ -17,7 +17,7 @@ class Navbar extends Component {
                                 <nav id="mainnav" className="mainnav">
                                     <ul className="menu">
                                     <li className="home">
-                                        <Link to="index.html">Home</Link>
+                                        <Link to="/?q=slider">Home</Link>
                                     </li>
                                     <li>
                                         <Link to="/about_us">About</Link>

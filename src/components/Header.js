@@ -6,6 +6,12 @@ import Navbar from './Navbar';
 
 
 class Header extends Component {
+    findParams() {
+        const search = window.location.search;
+        const params = new URLSearchParams(search);
+        console.log(params.get('q'));
+        return params.get('q');
+    }
     render() {
         return (
             <div className="wrap-slider">
@@ -32,6 +38,7 @@ class Header extends Component {
                 </div>
 
                 <Navbar />
+                {this.findParams() === 'slider' ?
 
                 <div id="rev_slider_1078_1_wrapper" className="rev_slider_wrapper fullwidthbanner-container" style={{'margin': '0px auto', 'backgroundColor': 'transparent', 'padding': 0, 'marginTop': 0, 'marginBottom': 0}} data-alias="classic4export" data-source="gallery">
                     <div id="rev_slider_1078_1" className="rev_slider fullwidthabanner" style={{'display': 'none'}} data-version="5.3.0.2">
@@ -52,6 +59,7 @@ class Header extends Component {
                         </ul>
                     </div>
                 </div>
+                :<div></div>}
             </div>
         )
     }

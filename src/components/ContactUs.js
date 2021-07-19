@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import Header from './Header'
 
 
 class ContactUs extends Component {
     render() {
         return (
             <div>
+                <Header />
                <div className="page-title parallax parallax5">
                     <div className="overlay"> </div>
                     <div className="container">
