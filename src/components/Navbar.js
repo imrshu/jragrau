@@ -20,7 +20,7 @@ class Navbar extends Component {
                                         <Link to="index.html">Home</Link>
                                     </li>
                                     <li>
-                                        <Link to="about.html">About</Link>
+                                        <Link to="/about_us">About</Link>
                                     </li>
                                     <li>
                                         <Link to="portfolio-v1.html">Products</Link>
@@ -38,13 +38,13 @@ class Navbar extends Component {
                                         <Link to="blog-fullwidth.html">Calibration</Link>
                                     </li>
                                     <li>
-                                        <Link to="contact.html">Catalogues</Link>
+                                        <Link to="">Catalogues</Link>
                                     </li>
                                     <li>
                                         <Link to="contact.html">Software</Link>
                                     </li>
                                     <li>
-                                        <Link to="contact.html">Contact</Link>
+                                        <Link to="/contact_us">Contact</Link>
                                     </li>
                                     </ul>
                                 </nav>

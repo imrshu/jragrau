@@ -11,6 +11,10 @@ function App() {
     <BrowserRouter>
       <div className="boxed">
         <Header />
+        <Switch>
+          <Route path='/about_us' component={AboutUs}></Route>
+          <Route path='/contact_us' component={ContactUs}></Route>
+        </Switch>
         <Footer />
       </div>
     </BrowserRouter>
