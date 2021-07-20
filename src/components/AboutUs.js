@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
+import line from '../images/line.png'
 
 
 class AboutUs extends Component {
@@ -34,7 +35,7 @@ class AboutUs extends Component {
                             <div className="col-md-12">
                                 <div className="title-section style1 large">
                                 <h3 className="title">We Making a Positive Impact Across The Globe</h3>
-                                <div className="icon"><img src="images/icon/line.png" alt="image" /></div>
+                                <div className="icon"><img src={line} alt="image" /></div>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +43,9 @@ class AboutUs extends Component {
                             <div className="flat-icon">
                                 <div className="col-md-4">
                                 <div className="iconbox center circle">
-                                    <div className="box-header"> </div>
+                                    <div className="box-header">
+                                        <i className="icon-network"></i>
+                                    </div>
                                     <div className="icon-post">
                                         <div className="box-title">
                                             <Link to="/About_us">Quality Work</Link></div>
@@ -54,7 +57,9 @@ class AboutUs extends Component {
                                 </div>
                                 <div className="col-md-4">
                                 <div className="iconbox center circle">
-                                    <div className="box-header"> </div>
+                                    <div className="box-header">
+                                        <i className="icon-magic-wand"></i> 
+                                    </div>
                                     <div className="icon-post">
                                         <div className="box-title"><Link to="about.html#">Leadership</Link></div>
                                         <div className="box-content">
@@ -65,7 +70,9 @@ class AboutUs extends Component {
                                 </div>
                                 <div className="col-md-4">
                                 <div className="iconbox center circle">
-                                    <div className="box-header"> </div>
+                                    <div className="box-header"> 
+                                        <i className='icon-alarm-clock-1'></i>
+                                    </div>
                                     <div className="icon-post">
                                         <div className="box-title"><a href="about.html#">Priorities</a></div>
                                         <div className="box-content">
@@ -96,7 +103,7 @@ class AboutUs extends Component {
                             <div className="col-md-12">
                             <div className="title-section style1 large">
                                 <h3 className="title">OUR TEAM</h3>
-                                <div className="icon"><img src="images/icon/line.png" alt="image" /></div>
+                                <div className="icon"><img src={line} alt="image" /></div>
                                 <div className="desc">We’re tightly connected with our communities.</div>
                             </div>
                             </div>
