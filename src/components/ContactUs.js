@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
+import Maps from './Maps'
 
 
 class ContactUs extends Component {
@@ -63,7 +64,13 @@ class ContactUs extends Component {
                                         <p>Mail:<Link to="contact.html#"> support@jragrau.com</Link></p>
                                     </div>
                                 </div>
-                                <div className="container-fluid"> </div>
+                                <div class="container-fluid">
+                                <div class="row">
+                                    <div id="map" style={{'width':'100%', 'height':'245px', 'marginTop':'115px'}}>
+                                        <Maps />
+                                    </div> 
+                                </div>
+                                </div>
                             </div>
                             </div>
                         </div>

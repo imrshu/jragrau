@@ -69,58 +69,14 @@ class Footer extends Component {
 
                         <div className="col-md-4">
                            <div className="widget widget-instagram">
-                              <h4 className="widget-title">Instagram</h4>
-                              <ul className="clearfix">
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/1.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/2.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/3.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div className="thumb images-hover images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/4.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/5.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/6.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/7.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                                 <li className="last">
-                                    <div className="thumb images-hover">
-                                       <div className="overlay"> </div>
-                                       <Link to="index-header-classic.html#"> <img src="images/flickr/8.jpg" alt="image" /> </Link>
-                                    </div>
-                                 </li>
-                              </ul>
+                              <h4 className="widget-title">Subscribe to our Newsletter</h4>
+                              <p>Sign up today for tips and latest news.</p>
+                              <br></br>
+                              <input id="newsletter" name="newsletter" size="32" type="text" placeholder="Email Address" />
+                              <button><i className='fa fa-5x fa-paper-plane' ></i>
+                              </button>
                            </div>
+
                         </div>
                      </div>
                   </div>
