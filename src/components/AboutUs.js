@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import line from '../images/line.png'
+import '../css/aboutus.css'
 
 
 class AboutUs extends Component {
@@ -15,13 +16,13 @@ class AboutUs extends Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="page-title-heading">
-                                <h2 className="title">Get in touch with us</h2>
+                                <h2 className="title">We're Here For You</h2>
                                 </div>
                                 <div className="breadcrumbs">
                                 <ul>
                                     <li className="home">
                                         <Link to="/">Home</Link></li>
-                                    <li>Contact</li>
+                                    <li>About Us</li>
                                 </ul>
                                 </div>
                             </div>
@@ -109,55 +110,16 @@ class AboutUs extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-3 col-xs-12">
-                            <div className="flat-team style5">
-                                <div className="avatar">
-                                    <div className="overlay"> </div>
-                                    <img src="images/member/3.jpg" alt="image" />
+                        <div className="col-md-3">
+                                <div className="hover hover-3 text-white rounded"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570786274/hoverSet-5_ifnajv.jpg" alt="" />
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-3-content px-10 py-15">
+                                    <h3 className="hover-3-title text-uppercase font-weight-bold mb-1"><span className="font-weight-light">Dedicated Team</span></h3>
+                                    <p className="hover-3-description small text-uppercase text-wrap px-12">Committed to helping its clients reach their goals, to personalising their experiences</p>
+                                    </div>
                                 </div>
-                                <div className="content">
-                                    <h3 className="name">Dedicated Teams</h3>
-                                    <p className="position">Makerting</p>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-3 col-xs-12">
-                            <div className="flat-team style5">
-                                <div className="avatar">
-                                    <div className="overlay"> </div>
-                                    <img src="images/member/3.jpg" alt="image" />
-                                </div>
-                                <div className="content">
-                                    <h3 className="name">True Partners</h3>
-                                    <p className="position">Founder &amp; CEO</p>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-3 col-xs-12">
-                            <div className="flat-team style5">
-                                <div className="avatar">
-                                    <div className="overlay"> </div>
-                                    <img src="images/member/4.jpg" alt="image" />
-                                </div>
-                                <div className="content">
-                                    <h3 className="name">Global Know-How</h3>
-                                    <p className="position">Web Design</p>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-3 col-xs-12">
-                            <div className="flat-team style5">
-                                <div className="avatar">
-                                    <div className="overlay"> </div>
-                                    <img src="images/member/5.jpg" alt="image" />
-                                </div>
-                                <div className="content">
-                                    <h3 className="name">Focus on Innovation</h3>
-                                    <p className="position">Web Design</p>
-                                </div>
-                            </div>
-                            </div>
                         </div>
+                       </div>
                     </div>
                 </section>
             </div>   
