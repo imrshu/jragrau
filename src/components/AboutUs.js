@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 import Header from './Header'
 import line from '../images/line.png'
 import '../css/aboutus.css'
+import logo from '../images/logo.png'
+import * as images from '../images/';
+
+
 
 
 class AboutUs extends Component {
@@ -111,15 +115,48 @@ class AboutUs extends Component {
                         </div>
                         <div className="row">
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570786274/hoverSet-5_ifnajv.jpg" alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images.team} alt="" />
                                     <div className="hover-overlay"></div>
-                                    <div className="hover-3-content px-10 py-15">
-                                    <h3 className="hover-3-title text-uppercase font-weight-bold mb-1"><span className="font-weight-light">Dedicated Team</span></h3>
-                                    <p className="hover-3-description small text-uppercase text-wrap px-12">Committed to helping its clients reach their goals, to personalising their experiences</p>
+                                    <div className="hover-3-content" style={{'padding': '30px 30px'}}>
+                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Dedicated Team</span></h3>
+                                    <p className="hover-3-description small text-uppercase text-wrap">Committed to helping its clients reach their goals, to personalising their experiences</p>
                                     </div>
                                 </div>
                         </div>
+
+                        <div className="col-md-3">
+                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-3-content" style={{'padding': '30px 30px'}}>
+                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">True Partners</span></h3>
+                                    <p className="hover-3-description small text-uppercase text-wrap">Our strong sense of identification with client projects means that we are constantly striving</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div className="col-md-3">
+                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-3-content" style={{'padding': '30px 30px'}}>
+                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Global Know-How</span></h3>
+                                    <p className="hover-3-description small text-uppercase text-wrap">They aren’t yet aware. we adopt progressive approach to technology and marketing techniques</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div className="col-md-3">
+                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-3-content" style={{'padding': '30px 30px'}}>
+                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Focus on Innovation</span></h3>
+                                    <p className="hover-3-description small text-uppercase text-wrap">This sense of identification also means we value and promote seamless interaction</p>
+                                    </div>
+                                </div>
+                        </div>
+
+
                        </div>
+                    
                     </div>
                 </section>
             </div>   
