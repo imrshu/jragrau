@@ -4,7 +4,8 @@ import Header from './Header'
 import line from '../images/line.png'
 import '../css/aboutus.css'
 import logo from '../images/logo.png'
-import * as images from '../images/';
+import team from '../images/team.png'
+
 
 
 
@@ -115,7 +116,7 @@ class AboutUs extends Component {
                         </div>
                         <div className="row">
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={images.team} alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={team} alt="" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
                                     <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Dedicated Team</span></h3>

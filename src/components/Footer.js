@@ -72,9 +72,12 @@ class Footer extends Component {
                               <h4 className="widget-title">Subscribe to our Newsletter</h4>
                               <p>Sign up today for tips and latest news.</p>
                               <br></br>
+                              <div style={{'position':'relative'}}>
                               <input id="newsletter" name="newsletter" size="32" type="text" placeholder="Email Address" />
-                              <button><i className='fa fa-5x fa-paper-plane' ></i>
+                              <button style={{'position':'absolute', 'right':'30px', 'padding':'5px 5px', 'backgroundColor':'rgb(255 193 16)'}}><i className='fa fa-2x fa-paper-plane' ></i>
                               </button>
+                              </div>
+                              
                            </div>
 
                         </div>

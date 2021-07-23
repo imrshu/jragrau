@@ -5,7 +5,10 @@ import Header from './Header'
 class Home extends Component {
     render() {
         return (
-            <Header />
+            <div>
+                <Header /> 
+            </div>
+            
         )
     }
 }
