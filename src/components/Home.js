@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import WorkProcess from './WorkProcess';
-// import Import_Images from '../helpers/Import_Images'
+import importAll from '../helpers/Import_Images'
 
-function importAll(r) {
-    let images = {};
-     r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
-    return images
-   }
+
+
 const images = importAll(require.context('../client_images/', true, /\.(png|jpe?g|svg)$/));
-console.log(images)
+
 
 class Home extends Component {
     render() {
@@ -17,7 +14,7 @@ class Home extends Component {
             <div>
                 <Header /> 
                 <WorkProcess />
-                <section class="flat-row background-client">
+                <section class="flat-row background-client" style={{'margin-top': '150px'}}>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

@@ -474,6 +474,7 @@ body.style-color {
     background-color: #353535;
     text-align: center;
     border-radius: 3px; 
+    height: 180px;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -499,7 +500,7 @@ body.style-color {
 }
 
 .iconbox1.style-3 .box-title {
-    font-size: 18px;    
+    font-size: 15px;    
     font-weight: 400;
     color: #fff;   
     font-family: "Montserrat", sans-serif;
@@ -547,6 +548,13 @@ body.style-color {
 
 .flat-teaser-wrapper button {
     text-transform: none;
+}
+
+.flat-icon{
+	position: absolute;
+	left: 180px;
+	top: -50px;
+	width: 100%;
 }
 
 .flat-icon .iconbox.left {

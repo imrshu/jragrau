@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
 import line from '../images/line.png'
+import importAll from '../helpers/Import_Images'
 
+
+const images = importAll(require.context('../images/work_process/', true, /\.(png|jpe?g|svg)$/));
 
 class WorkProcess extends Component {
     render() {
@@ -17,29 +20,29 @@ class WorkProcess extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row"  style={{'position':'relative'}}>
                         <div className="flat-icon">
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
-                                <div className="box-header"><img src="images/about/iconbox1.png" alt="images" /></div>
-                                <div className="box-title">Research and Analysis</div>
+                                <div className="box-header"><img src={images['research.png'].default} alt="images" /></div>
+                                <div className="box-title">Research & Analysis</div>
                             </div>
                             </div>
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
-                                <div className="box-header"><img src="images/about/iconbox2.png" alt="images" /></div>
+                                <div className="box-header"><img src={images['creative.png'].default} alt="images" /></div>
                                 <div className="box-title">Creative Solutions</div>
                             </div>
                             </div>
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
-                                <div className="box-header"><img src="images/about/iconbox3.png" alt="images" /></div>
+                                <div className="box-header"><img src={images['building.png'].default} alt="images" /></div>
                                 <div className="box-title">Building</div>
                             </div>
                             </div>
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
-                                <div className="box-header"><img src="images/about/iconbox4.png" alt="images" /></div>
+                                <div className="box-header"><img src='' alt="images" /></div>
                                 <div className="box-title">Project Launch</div>
                             </div>
                             </div>
