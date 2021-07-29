@@ -956,9 +956,9 @@ h4 {
 /* Page Title
 -------------------------------------------------------------- */
 .page-title {
-	text-align: center;
-    position: relative;
-    padding: 300px 0 215px 0;
+	text-align: ;
+	position: relative;
+    padding: 200px 115px;
 }
 
 .page-title .page-title-heading h2 {
@@ -966,7 +966,8 @@ h4 {
 	font-size: 50px;
 	font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: uppercase;;
+	
 }
 
 .breadcrumbs ul li,
@@ -1187,11 +1188,12 @@ article.entry {
 
 .entry .content-post .title-post {
 	font-family: "Montserrat", sans-serif;
-	font-size: 16px;
+	font-size: 26px;
 	line-height: 26px;
     color: #303030;
     text-transform: uppercase;
     font-weight: 500;
+	margin-bottom: 100px;
 }
 
 

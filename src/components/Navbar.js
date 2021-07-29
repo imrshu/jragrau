@@ -63,7 +63,7 @@ class Navbar extends Component {
                                         Catalogues</Link>
                                     </li>
                                     <li>
-                                        <Link to="contact.html">
+                                        <Link to="/software">
                                         Software</Link>
                                     </li>
                                     <li>
