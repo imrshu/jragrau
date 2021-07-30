@@ -326,16 +326,14 @@
 
 .tp-caption.excerpt,.excerpt
 {
-	background-color:rgba(0,0,0,1);
 	border-color:#fff;
 	border-style:none;
-	border-width:0;
-	color:#fff;
-	font-family:Arial;
-	font-size:36px;
-	font-weight:700;
+	border: width 10px;;
+	color:rgb(0, 0, 0);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:17.5px;
 	height:auto;
-	letter-spacing:-1.5px;
+	letter-spacing:-1px;
 	line-height:36px;
 	margin:0;
 	padding:1px 4px 0;

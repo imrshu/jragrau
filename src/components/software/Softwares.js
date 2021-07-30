@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import AppDevelopment from './AppDevelopment'
 import PageTitle from './PageTitle'
+import Technical from './Technical'
 
 
 class Softwares extends Component {
@@ -11,6 +12,7 @@ class Softwares extends Component {
                 <Header />
                 <PageTitle />
                 <AppDevelopment />
+                <Technical />
             </div>
         )
     }
