@@ -5,9 +5,9 @@ class Technical extends Component {
         return (
             <div>
                 <section className="flat-row">
-                <div className="container">
+                <div className="container" style={{'margin-top' : '-140px'}}>
                     <div className="row">
-                        <div className="col-md-8">
+                        <div className="col-md-8" style={{'float':'right'}}>
                             <div className="flat-cooperation">
                             <div className="post">
                             </div>
@@ -41,7 +41,7 @@ class Technical extends Component {
 
                     <div className="flat-divider d60px"> </div>
                     <div className="row">
-                        <div className="col-md-8">
+                        <div className="col-md-8" style={{'float':'right'}}>
                             <div className="flat-cooperation">
                             <div className="post">
                                 <div className="post-about">
@@ -73,7 +73,7 @@ class Technical extends Component {
 
                     <div className="flat-divider d60px"> </div>
                     <div className="row">
-                        <div className="col-md-8">
+                        <div className="col-md-8" style={{'float':'right'}}>
                             <div className="flat-cooperation">
                             <div className="post">
                                 <div className="post-about">

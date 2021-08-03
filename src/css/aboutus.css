@@ -1,7 +1,7 @@
 .hover {
   overflow: hidden;
   position: relative;
-  padding-bottom: 60%;
+  padding-bottom: 70%;
 }
 
 .hover-overlay {
@@ -30,7 +30,7 @@
   content: '';
   width: calc(100% - 3rem);
   height: calc(100% - 3rem);
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
@@ -59,18 +59,18 @@
 }
 
 .hover-3 img {
-  width: 110%;
+  width: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .hover-3 .hover-overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(0 0 0 / 0%);
 }
 
 .hover-3:hover img {
-  width: 100%;
+  width: 65%;
 }
 
 .hover-3:hover::after {

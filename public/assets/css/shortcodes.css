@@ -551,9 +551,7 @@ body.style-color {
 }
 
 .flat-icon{
-	position: absolute;
-	left: 180px;
-	top: -50px;
+	
 	width: 100%;
 }
 
@@ -614,11 +612,12 @@ body.style-color {
 
 .flat-cooperation .post .post-about .post-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     margin-bottom: 18px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 800;
+    color: #f9bf3b;
 }
 
 .flat-cooperation .post .post-about .post-content {

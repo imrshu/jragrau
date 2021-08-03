@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import Maps from './Maps'
+import importAll  from '../helpers/Import_Images'
+
+
+const images = importAll(require.context('../images/Software_Images/', false, /\.(png|jpe?g|svg)$/));
 
 
 class ContactUs extends Component {
@@ -10,7 +14,9 @@ class ContactUs extends Component {
             <div>
                 <Header />
                <div className="page-title parallax parallax5">
-                    <div className="overlay"> </div>
+                    <div className="overlay">
+                        <img src={images['title.jpeg'].default} style={{'height' : '500px'}}/>
+                    </div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">

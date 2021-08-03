@@ -210,6 +210,7 @@ img {
 
 b, strong {
 	font-weight: 900;
+	font-size: 25px;
 }
 
 .entry-page p {
@@ -967,7 +968,7 @@ h4 {
 	font-weight: 700;
     color: #fff;
     text-transform: uppercase;;
-	
+	text-align: center;
 }
 
 .breadcrumbs ul li,
@@ -2684,7 +2685,7 @@ blockquote .whisper {
     height: 100%;
     background-color: #000;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
-    opacity: 0.35;
+    /* opacity: 0.35; */
     filter: alpha(opacity=35);
 }
 

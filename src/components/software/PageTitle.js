@@ -1,12 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import importAll  from '../../helpers/Import_Images'
+
+
+const images = importAll(require.context('../../images/Software_Images/', false, /\.(png|jpe?g|svg)$/));
 
 
 class PageTitle extends Component {
     render() {
         return (
                 <div className="page-title parallax parallax1">
-                <div className="overlay"> </div>
+                <div className="overlay">
+                <img src={images['title.jpeg'].default} style={{'height' : '500px'}}/>
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">

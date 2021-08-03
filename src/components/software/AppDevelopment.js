@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import importAll  from '../../helpers/Import_Images'
 
 
-const images = importAll(require.context('../../images/AppDevelopment_Images/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../images/Software_Images/', false, /\.(png|jpe?g|svg)$/));
 
 
 class AppDevelopment extends Component {

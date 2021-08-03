@@ -74,7 +74,7 @@ class Footer extends Component {
                               <br></br>
                               <div style={{'position':'relative'}}>
                               <input id="newsletter" name="newsletter" size="32" type="text" placeholder="Email Address" />
-                              <button style={{'position':'absolute', 'right':'30px', 'padding':'5px 5px', 'backgroundColor':'rgb(255 193 16)'}}><i className='fa fa-2x fa-paper-plane' ></i>
+                              <button style={{'position':'absolute', 'right':'30px', 'padding':'5px 5px', 'backgroundColor':'rgb(247 191 44)'}}><i className='fa fa-2x fa-paper-plane' ></i>
                               </button>
                               </div>
                               

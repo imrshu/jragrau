@@ -4,10 +4,10 @@ import Header from './Header'
 import line from '../images/line.png'
 import '../css/aboutus.css'
 import logo from '../images/logo.png'
-import team from '../images/team.png'
+import importAll  from '../helpers/Import_Images'
 
 
-
+const images = importAll(require.context('../images/AboutUs_Images/', false, /\.(png|jpe?g|svg)$/));
 
 
 class AboutUs extends Component {
@@ -96,8 +96,8 @@ class AboutUs extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <h3 className="text-center text-white font-family-heading font-size-30 margin-bottom-20">WE BUILD PROFESSIONAL AND SMART BUILDINGS</h3>
-                                <div className="text-center margin-top-30"><a className="flat-button button-style" href="about.html#">GET A QOUTE</a></div>
+                                <h3 className="text-center text-white font-family-heading font-size-30 margin-bottom-20" style={{'color':'darkblue'}}>Driven By Values, Delivering On A Vision.</h3>
+                                <div className="text-center margin-top-30"><a className="flat-button button-style" href="about.html#">Learn More</a></div>
                             </div>
                         </div>
                     </div>
@@ -110,47 +110,47 @@ class AboutUs extends Component {
                             <div className="title-section style1 large">
                                 <h3 className="title">OUR TEAM</h3>
                                 <div className="icon"><img src={line} alt="image" /></div>
-                                <div className="desc">We’re tightly connected with our communities.</div>
+                                <div className="desc"><strong>We’re tightly connected with our communities.</strong></div>
                             </div>
                             </div>
                         </div>
                         <div className="row">
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={team} alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['team.png'].default} alt="" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
-                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Dedicated Team</span></h3>
-                                    <p className="hover-3-description small text-uppercase text-wrap">Committed to helping its clients reach their goals, to personalising their experiences</p>
+                                    <p className="hover-3-description small text-uppercase text-wrap"><font size='4'><strong>Dedicated Team</strong> </font>
+                                    <br/>Committed to helping its clients reach their goals, to personalising their experiences</p>
                                     </div>
                                 </div>
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['partners.png'].default} alt="" tintColor='blue' />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
-                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">True Partners</span></h3>
-                                    <p className="hover-3-description small text-uppercase text-wrap">Our strong sense of identification with client projects means that we are constantly striving</p>
+                                    <p className="hover-3-description small text-uppercase text-wrap"><font size='4'> <strong>True Partners</strong></font>
+                                    <br/>Our strong sense of identification with client projects means that we are constantly striving</p>
                                     </div>
                                 </div>
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['global.png'].default} alt="" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
-                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Global Know-How</span></h3>
-                                    <p className="hover-3-description small text-uppercase text-wrap">They aren’t yet aware. we adopt progressive approach to technology and marketing techniques</p>
+                                    <p className="hover-3-description small text-uppercase text-wrap"><font size='4'> <strong>Global Know-How</strong></font>
+                                    <br/>They aren’t yet aware. we adopt progressive approach to technology and marketing techniques</p>
                                     </div>
                                 </div>
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src='' alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['idea.png'].default} alt="" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
-                                    <h3 className="hover-3-title text-uppercase font-weight-bold"><span className="font-weight-light">Focus on Innovation</span></h3>
-                                    <p className="hover-3-description small text-uppercase text-wrap">This sense of identification also means we value and promote seamless interaction</p>
+                                    <p className="hover-3-description small text-uppercase text-wrap"><font size='3'> <strong>Focus on innovation</strong></font>
+                                    <br/>This sense of identification also means we value and promote seamless interaction</p>
                                     </div>
                                 </div>
                         </div>
