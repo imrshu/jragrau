@@ -5,7 +5,7 @@ import Maps from './Maps'
 import importAll  from '../helpers/Import_Images'
 
 
-const images = importAll(require.context('../images/Software_Images/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
 
 
 class ContactUs extends Component {

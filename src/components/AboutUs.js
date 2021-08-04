@@ -8,6 +8,7 @@ import importAll  from '../helpers/Import_Images'
 
 
 const images = importAll(require.context('../images/AboutUs_Images/', false, /\.(png|jpe?g|svg)$/));
+const images1 = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
 
 
 class AboutUs extends Component {
@@ -16,7 +17,9 @@ class AboutUs extends Component {
             <div>
                 <Header />
                 <div className="page-title parallax parallax3">
-                    <div className="overlay"> </div>
+                    <div className="overlay">
+                    <img src={images1['title.jpeg'].default} style={{'height' : '500px'}}/>
+                    </div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -34,7 +37,6 @@ class AboutUs extends Component {
                         </div>
                     </div>
                 </div>
-
                 <section className="flat-row">
                     <div className="container">
                         <div className="row">
@@ -96,7 +98,7 @@ class AboutUs extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <h3 className="text-center text-white font-family-heading font-size-30 margin-bottom-20" style={{'color':'darkblue'}}>Driven By Values, Delivering On A Vision.</h3>
+                                <h3 className="text-center text-white font-family-heading font-size-30 margin-bottom-20" style={{'color':'white'}}>Driven By Values, Delivering On A Vision.</h3>
                                 <div className="text-center margin-top-30"><a className="flat-button button-style" href="about.html#">Learn More</a></div>
                             </div>
                         </div>

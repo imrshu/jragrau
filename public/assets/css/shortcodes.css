@@ -24,7 +24,7 @@
     clear: both;
     display: block;
     position: relative;
-    padding: 100px 0;    
+    padding: 60px 0;    
 }
 
 .flat-row.row-small {
@@ -98,7 +98,7 @@ body.style-color {
 }
 
 .flat-button:hover {
-    background-color: #f9bf3b;
+    background-color: #3bc4f9;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -146,12 +146,13 @@ body.style-color {
 }
 
 .font-size-30 {
-    font-size: 30px;
+    font-size:35px;
+    text-transform: uppercase;
 }
 
 .font-family-heading {
     font-family: 'Montserrat', serif !important;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .text-white {
@@ -410,7 +411,7 @@ body.style-color {
 
 .flat-icon .circle .box-header {
     position: relative;
-    background-color: #f9bf3b;
+    background-color: #3bc4f9;
     border: 1px solid #f9bf3b;
     width: 100px;
     height: 100px;
@@ -427,7 +428,7 @@ body.style-color {
 
 .flat-icon .circle:hover .box-header {
     background-color: transparent;
-    border: 1px solid #f9bf3b;
+    border: 1px solid #3bc4f9;
     border-radius: 50%;
     opacity: 1;
     -webkit-transition: all 0.3s ease-in-out;

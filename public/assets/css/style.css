@@ -2654,7 +2654,10 @@ blockquote .whisper {
 
 .parallax-callout { background-image: url(http://themesflat.com/html/monster/images/parallax/parallax-pagecallout.jpg); }
 
-.bg-section-about { background-image: url(../images/parallax/bg-section-about.jpg); }
+.bg-section-about { 
+	/* background-image: url(../images/parallax/bg-section-about.jpg);  */
+	background-color: #ff8f00b8;
+}
 
 .flat-row .bg-overlay {
 	position: absolute;
