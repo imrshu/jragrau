@@ -59,7 +59,7 @@ class Navbar extends Component {
                                         Calibration</Link>
                                     </li>
                                     <li>
-                                        <Link to="">
+                                        <Link to="/catalogues">
                                         Catalogues</Link>
                                     </li>
                                     <li>

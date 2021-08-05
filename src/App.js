@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs'
 import ContactUs from './components/ContactUs'
 import Home from './components/Home'
 import Softwares from './components/software/Softwares'
+import Catalogues from './components/Catalogues'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about_us' component={AboutUs}></Route>
           <Route path='/contact_us' component={ContactUs}></Route>
           <Route path='/software' component={Softwares}></Route>
+          <Route path='/catalogues' component={Catalogues}></Route>
         </Switch>
         <Footer />
       </div>
