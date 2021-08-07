@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Header from './Header'
 import line from '../images/line.png'
 import '../css/aboutus.css'
-import logo from '../images/logo.png'
 import importAll  from '../helpers/Import_Images'
 
 
@@ -18,7 +17,7 @@ class AboutUs extends Component {
                 <Header />
                 <div className="page-title parallax parallax3">
                     <div className="overlay">
-                    <img src={images1['title.jpeg'].default} style={{'height' : '500px'}}/>
+                    <img src={images1['title.jpeg'].default} style={{'height' : '500px'}} alt="page title about us" />
                     </div>
                     <div className="container">
                         <div className="row">
@@ -43,7 +42,7 @@ class AboutUs extends Component {
                             <div className="col-md-12">
                                 <div className="title-section style1 large">
                                 <h3 className="title">We Making a Positive Impact Across The Globe</h3>
-                                <div className="icon"><img src={line} alt="image" /></div>
+                                <div className="icon"><img src={line} alt="we are making a positive impact" /></div>
                                 </div>
                             </div>
                         </div>
@@ -111,14 +110,14 @@ class AboutUs extends Component {
                             <div className="col-md-12">
                             <div className="title-section style1 large">
                                 <h3 className="title">OUR TEAM</h3>
-                                <div className="icon"><img src={line} alt="image" /></div>
+                                <div className="icon"><img src={line} alt="Our team" /></div>
                                 <div className="desc"><strong>We’re tightly connected with our communities.</strong></div>
                             </div>
                             </div>
                         </div>
                         <div className="row">
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={images['team.png'].default} alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['team.png'].default} alt="dedicated team" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
                                     <p className="hover-3-description small text-uppercase text-wrap"><font size='4'><strong>Dedicated Team</strong> </font>
@@ -128,7 +127,7 @@ class AboutUs extends Component {
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={images['partners.png'].default} alt="" tintColor='blue' />
+                                <div className="hover hover-3 text-white rounded"><img src={images['partners.png'].default} alt="our partners" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
                                     <p className="hover-3-description small text-uppercase text-wrap"><font size='4'> <strong>True Partners</strong></font>
@@ -138,7 +137,7 @@ class AboutUs extends Component {
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={images['global.png'].default} alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['global.png'].default} alt="global know how" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
                                     <p className="hover-3-description small text-uppercase text-wrap"><font size='4'> <strong>Global Know-How</strong></font>
@@ -148,7 +147,7 @@ class AboutUs extends Component {
                         </div>
 
                         <div className="col-md-3">
-                                <div className="hover hover-3 text-white rounded"><img src={images['idea.png'].default} alt="" />
+                                <div className="hover hover-3 text-white rounded"><img src={images['idea.png'].default} alt="focus on innovation" />
                                     <div className="hover-overlay"></div>
                                     <div className="hover-3-content" style={{'padding': '30px 30px'}}>
                                     <p className="hover-3-description small text-uppercase text-wrap"><font size='3'> <strong>Focus on innovation</strong></font>

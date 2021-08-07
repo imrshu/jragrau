@@ -16,30 +16,30 @@ class Footer extends Component {
                               <div className="text">
                                  <p>We touch the lives of millions of people across the world every day with the testing solutions that we produce.</p>
                               </div>
-                              <ul class="flat-socials">
-                                    <li class="dribbble">
+                              <ul className="flat-socials">
+                                    <li className="dribbble">
                                        <Link to="index-header-classic.html#">
-                                          <i class="fa fa-dribbble"></i>
+                                          <i className="fa fa-dribbble"></i>
                                        </Link>
                                     </li>
-                                    <li class="twitter">
+                                    <li className="twitter">
                                        <Link to="index-header-classic.html#">
-                                          <i class="fa fa-twitter"></i>
+                                          <i className="fa fa-twitter"></i>
                                        </Link>
                                     </li>
-                                    <li class="facebook">
+                                    <li className="facebook">
                                        <Link to="index-header-classic.html#">
-                                          <i class="fa fa-facebook"></i>
+                                          <i className="fa fa-facebook"></i>
                                        </Link>
                                     </li>
-                                    <li class="linkedin">
+                                    <li className="linkedin">
                                        <Link to="index-header-classic.html#">
-                                          <i class="fa fa-linkedin"></i>
+                                          <i className="fa fa-linkedin"></i>
                                        </Link>
                                     </li>
-                                    <li class="behance">
+                                    <li className="behance">
                                        <Link to="index-header-classic.html#">
-                                          <i class="fa fa-behance"></i>
+                                          <i className="fa fa-behance"></i>
                                        </Link>
                                     </li>
                               </ul>

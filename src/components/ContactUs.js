@@ -15,7 +15,7 @@ class ContactUs extends Component {
                 <Header />
                <div className="page-title parallax parallax5">
                     <div className="overlay">
-                        <img src={images['title.jpeg'].default} style={{'height' : '500px'}}/>
+                        <img src={images['title.jpeg'].default} style={{'height' : '500px'}} alt="page title contact us"/>
                     </div>
                     <div className="container">
                         <div className="row">

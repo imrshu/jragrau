@@ -17,7 +17,7 @@ class AppDevelopment extends Component {
                      <div className="col-md-4">
                         <div className="sidebar">
                            <div>
-                              <img src={images['image1.png'].default} alt="rendering process" style={{'margin-bottom':'100px'}}/>
+                              <img src={images['image1.png'].default} alt="rendering process" style={{'marginBottom':'100px'}}/>
                            </div>
                            <div className="widget widget-dowload services-single">
                            <h4 className="widget-title">Why do we use Electron for development</h4>

@@ -13,7 +13,7 @@ class Industries extends Component {
                     <div className="col-md-12">
                         <div className="title-section style1 color-style">
                             <h3 className="title">Perfect Solutions For Any Industry</h3>
-                            <div className="icon"><img src={line} alt="image" /></div>
+                            <div className="icon"><img src={line} alt="page title for industries" /></div>
                         </div>
                     </div>
                     <div className="col-md-12">
@@ -29,7 +29,7 @@ class Industries extends Component {
                             <div className="portfolio-wrap clearfix">
                             <div className="item direction webdesign photoshop industrial motion">
                                 <div className="featured-images">
-                                    <img src="images/portfolio/9.jpg" alt="images" />
+                                    <img src="images/portfolio/9.jpg" alt="industries work" />
                                     <div className="overlay">
                                         <div className="portfolio-details">
                                         <div className="project-info-wrap">
@@ -42,7 +42,7 @@ class Industries extends Component {
                             </div>
                             <div className="item industrial">
                                 <div className="featured-images">
-                                    <img src="images/portfolio/10.jpg" alt="images" />
+                                    <img src="images/portfolio/10.jpg" alt="industries office" />
                                     <div className="overlay">
                                         <div className="portfolio-details">
                                         <div className="project-info-wrap">
@@ -55,7 +55,7 @@ class Industries extends Component {
                             </div>
                             <div className="item motion">
                                 <div className="featured-images">
-                                    <img src="images/portfolio/11.jpg" alt="images" />
+                                    <img src="images/portfolio/11.jpg" alt="industries awesome" />
                                     <div className="overlay">
                                         <div className="portfolio-details">
                                         <div className="project-info-wrap">
@@ -68,7 +68,7 @@ class Industries extends Component {
                             </div>
                             <div className="item photoshop">
                                 <div className="featured-images">
-                                    <img src="images/portfolio/12.jpg" alt="images" />
+                                    <img src="images/portfolio/12.jpg" alt="industries last" />
                                     <div className="overlay">
                                         <div className="portfolio-details">
                                         <div className="project-info-wrap">

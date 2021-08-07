@@ -16,7 +16,7 @@ class PageTitle extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="page-title-heading" style={{'text-align':'center'}}>
+                            <div className="page-title-heading" style={{'textAlign':'center'}}>
                             <h2 className="title">Softwares</h2>
                             </div>
                             <div className="breadcrumbs">

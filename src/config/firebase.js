@@ -6,7 +6,7 @@ import 'firebase/auth'
 var firebaseConfig = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
-    projectId: process.env.projectId,
+    projectId: "jgrarau",
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId
@@ -14,6 +14,6 @@ var firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.firestore().settings({timestampsInSnapshots: true});
+firebase.firestore().settings({experimentalForceLongPolling: true});
 
 export default firebase;

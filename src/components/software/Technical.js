@@ -5,7 +5,7 @@ class Technical extends Component {
         return (
             <div>
                 <section className="flat-row">
-                <div className="container" style={{'margin-top' : '-140px'}}>
+                <div className="container" style={{'marginTop' : '-140px'}}>
                     <div className="row">
                         <div className="col-md-8" style={{'float':'right'}}>
                             <div className="flat-cooperation">
