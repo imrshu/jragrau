@@ -7,8 +7,9 @@ class Navbar extends Component {
     render() {
         return (
             <header id="header" className="header header-classic clearfix">
-                <div className="container">
+                <div className="container" style={{'margin': 0, 'padding': 0}}>
                 <div className="row">
+                    
                     <div className="col-md-12">
                         <div className="header-wrap clearfix">
                             <div id="logo" className="logo">
