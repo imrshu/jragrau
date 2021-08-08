@@ -537,6 +537,10 @@ h4 {
 	border-bottom: 0;
 }
 
+.header.header-classic #mainnav > ul > li > a.active {
+	color: #f9bf3b;
+}
+
 .header.header-classic #mainnav > ul > li > a,
 .header.header-classic .header-wrap .show-search a, 
 .header.header-classic .header-wrap .cart a {
@@ -614,12 +618,6 @@ h4 {
 		-ms-transition: all 0.3s ease-in-out;
 		 -o-transition: all 0.3s ease-in-out;
 			transition: all 0.3s ease-in-out;
-} 
-
-#mainnav .menu .has-sub:hover:before,
-#mainnav > ul > li > a:hover,
-#mainnav > ul > li.home > a {
-    color: #f9bf3b;
 }
 
 #mainnav > ul > li > a:hover {

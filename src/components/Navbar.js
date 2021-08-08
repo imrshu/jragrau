@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import logo from '../images/logo.png'
 
 
@@ -21,61 +21,60 @@ class Navbar extends Component {
                             <div className="btn-menu"> </div>
                             <nav id="mainnav" className="mainnav">
                                 <ul className="menu">
-                                    <li className="home">
-                                        <Link to="/?q=slider">
-                                        Home</Link>
+                                    <li>
+                                        <NavLink exact activeClassName="active" to="/">
+                                        Home</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="/about_us">
-                                        About</Link>
+                                        <NavLink activeClassName="active" to="/about_us">
+                                        About</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="portfolio-v1.html">
-                                        Products</Link>
+                                        <NavLink activeClassName="active" to="portfolio-v1.html">
+                                        Products</NavLink>
                                         <ul className="submenu">
                                         <li>
-                                            <Link to="portfolio-v2.html">
-                                            Load Cells</Link>
+                                            <NavLink activeClassName="active" to="portfolio-v2.html">
+                                            Load Cells</NavLink>
                                         </li>
                                         <li>
-                                            <Link to="portfolio-v3.html">
-                                            Torque Sensors</Link>
+                                            <NavLink activeClassName="active" to="portfolio-v3.html">
+                                            Torque Sensors</NavLink>
                                         </li>
                                         <li>
-                                            <Link to="portfolio-v4.html">
-                                            Calibration Systems</Link>
+                                            <NavLink  activeClassName="active" to="portfolio-v4.html">
+                                            Calibration Systems</NavLink>
                                         </li>
                                         <li>
-                                            <Link to="portfolio-single-v1.html">
-                                            Testing Systems</Link>
+                                            <NavLink activeClassName="active" to="portfolio-single-v1.html">
+                                            Testing Systems</NavLink>
                                         </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link to="services.html">
-                                        Custom Machinery</Link>
+                                        <NavLink activeClassName="active" to="services.html">
+                                        Custom Machinery</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="blog-fullwidth.html">
-                                        Calibration</Link>
+                                        <NavLink activeClassName="active" to="blog-fullwidth.html">
+                                        Calibration</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="/catalogues">
-                                        Catalogues</Link>
+                                        <NavLink activeClassName="active" to="/catalogues">
+                                        Catalogues</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="/software">
-                                        Software</Link>
+                                        <NavLink activeClassName="active" to="/software">
+                                        Software</NavLink>
                                     </li>
                                     <li>
-                                        <Link to="/contact_us">
-                                        Contact</Link>
+                                        <NavLink activeClassName="active" to="/contact_us">
+                                        Contact</NavLink>
                                     </li>
                                     <li>
                                             <div className="show-search" style={{'position': 'absolute', 'top':'-50px'}}>
                                                 <a href="index-header-classic.html#"><i className="fa fa-search"></i></a>                
                                             </div>
-
                                     </li>
                                 </ul>
                             </nav>
