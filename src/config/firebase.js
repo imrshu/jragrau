@@ -6,7 +6,7 @@ import 'firebase/auth'
 var firebaseConfig = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
-    projectId: "jgrarau",
+    projectId: process.env.projectId,
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId
@@ -14,6 +14,6 @@ var firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.firestore().settings({experimentalForceLongPolling: true});
+const firestore = firebase.firestore();
 
-export default firebase;
+export {firestore, firebase as default}

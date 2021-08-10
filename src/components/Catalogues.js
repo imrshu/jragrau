@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import importAll  from '../helpers/Import_Images'
 import Header from './Header';
-import firebase from '../config/firebase';
+import {firestore} from '../config/firebase';
 
 
 const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
@@ -10,7 +10,7 @@ const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)
 
 class Catalogues extends Component {
     // Define the db connection for products collection
-    db = firebase.firestore().collection('products')
+    db = firestore.collection('products')
     // define the state for Catelogues
     state = {
         'products': []
@@ -26,8 +26,6 @@ class Catalogues extends Component {
                 'products': items 
             })    
         })
-        console.log(items)
-        console.log(this.state.products)
     }
 
     render() {
@@ -76,7 +74,7 @@ class Catalogues extends Component {
                                     <div className="portfolio-wrap clearfix">
                                         {this.state.products.map((product, idx) => (
                                             <div className="item direction industrial motion" key={idx}>
-                                                <div className="featured-images"><img src="images/portfolio/v4/1.jpg" alt="product" /></div>
+                                                <div className="featured-images"><img src={product.image} alt={product.name} /></div>
                                                 <div className="portfolio-details v1">
                                                     <div className="post"><Link to="portfolio-v4.html#">{product.name}</Link></div>
                                                     <ul className="meta-post clearfix">
