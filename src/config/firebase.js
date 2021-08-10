@@ -6,7 +6,7 @@ import 'firebase/auth'
 var firebaseConfig = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
-    projectId: process.env.projectId,
+    projectId: 'jragrau-868e6',
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId
