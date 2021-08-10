@@ -10,7 +10,7 @@ class Counter extends Component {
                         <p>Perfect Solutions For<br/><br/>Any Industrials</p>
                     </section>
                 </div>
-                <div className="container" style={{'marginLeft':'550px'}}>
+                <div className="container" style={{'margin-left':'550px'}}>
                     <div className="row">
                         <div className="col-md-3">
                             <div className="flat-counter color-theme">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import line from '../images/line.png'
+import line from '../../images/line.png'
 
 
 class ClientReviews extends Component {

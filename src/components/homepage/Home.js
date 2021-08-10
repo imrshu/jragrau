@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header'
+import Header from '../Header'
 import WorkProcess from './WorkProcess';
 import Counter from './Counter';
 import ClientReviews from './ClientReviews';
