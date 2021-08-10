@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
-import line from '../images/line.png'
-import importAll from '../helpers/Import_Images'
+import line from '../../images/line.png'
+import importAll from '../../helpers/Import_Images'
 
 
-const images = importAll(require.context('../images/work_process/', true, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../images/work_process/', true, /\.(png|jpe?g|svg)$/));
 
 class WorkProcess extends Component {
     render() {
