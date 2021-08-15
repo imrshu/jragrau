@@ -33,7 +33,7 @@ class Industries extends Component {
                             <li><Link to="index.html#" data-filter=".webdesign">Packaging & Food</Link></li>
                             <li><Link to="index.html#" data-filter=".webdesign">Agriculture</Link></li>
                             <li><Link to="index.html#" data-filter=".webdesign">Defence & Ammunition</Link></li>
-                            <li><Link to="index.html#" data-filter=".webdesign">Research Laboratories</Link></li>
+                            <li><Link to="index.html#" data-filter=".webdesign">Research Laboratory</Link></li>
                             </ul>
                             <div className="portfolio-wrap clearfix">
                             <div className="item direction webdesign photoshop industrial motion">
