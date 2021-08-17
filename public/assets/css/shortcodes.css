@@ -721,10 +721,13 @@ body.style-color {
 }
 
 .flat-portfolio .item .project-info-wrap .project-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
     text-transform: uppercase;
     line-height: normal;
     margin-bottom: -6px;
-    margin-top: 0;
+    margin-top: 5px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         filter: alpha(opacity=0);
        opacity: 0;  
@@ -746,8 +749,8 @@ body.style-color {
 
 .flat-portfolio .item .project-info-wrap .project-title a {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .flat-portfolio .item .project-info-wrap .project-title a:hover {
