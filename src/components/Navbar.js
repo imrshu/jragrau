@@ -34,19 +34,19 @@ class Navbar extends Component {
                                         Products</NavLink>
                                         <ul className="submenu">
                                         <li>
-                                            <NavLink activeClassName="active" to="portfolio-v2.html">
+                                            <NavLink activeClassName="active" to="/load_cells">
                                             Load Cells</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink activeClassName="active" to="portfolio-v3.html">
+                                            <NavLink activeClassName="active" to="/torque_sensors">
                                             Torque Sensors</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink  activeClassName="active" to="portfolio-v4.html">
+                                            <NavLink  activeClassName="active" to="/callibration_system">
                                             Calibration Systems</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink activeClassName="active" to="portfolio-single-v1.html">
+                                            <NavLink activeClassName="active" to="/testing_system">
                                             Testing Systems</NavLink>
                                         </li>
                                         </ul>

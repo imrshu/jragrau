@@ -20,7 +20,7 @@ class WorkProcess extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row"  style={{'position':'relative'}}>
+                    <div className="row"  style={{'position':'relative', 'margin-left':'100px', 'margin-right':'-350px'}}>
                         <div className="flat-icon">
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
@@ -42,7 +42,7 @@ class WorkProcess extends Component {
                             </div>
                             <div className="col-md-2 col-xs-6">
                             <div className="iconbox1 style-3">
-                                <div className="box-header"><img src='' alt="images" /></div>
+                                <div className="box-header"><img src={images['project.png'].default} alt="images" /></div>
                                 <div className="box-title">Project Launch</div>
                             </div>
                             </div>
