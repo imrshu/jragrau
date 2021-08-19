@@ -7,7 +7,6 @@ import Client from './Client';
 import Industries from './Industries';
 
 
-
 class Home extends Component {
     render() {
         return (

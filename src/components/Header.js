@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Slider from './Slider';
 
 
+
 class Header extends Component {
     state = {
         'isSlider': false
@@ -29,6 +30,8 @@ class Header extends Component {
     //         })
     //     }
     // }
+
+
 
     render() {
         return (
