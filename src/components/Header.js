@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import { ExternalLink } from 'react-external-link';
 import Navbar from './Navbar';
 import Slider from './Slider';
@@ -7,36 +6,9 @@ import Slider from './Slider';
 
 
 class Header extends Component {
-    state = {
-        'isSlider': false
-    }
-
-    findParams() {
-        const search = window.location.search;
-        const params = new URLSearchParams(search);
-        console.log(params.get('q'));
-        return params.get('q');
-    }
-
-    // componentDidMount() {
-    //     const slider_status = this.findParams()
-    //     if (slider_status === 'slider') {
-    //         this.setState({
-    //             'isSlider': true
-    //         })
-    //     } else {
-    //         this.setState({
-    //             'isSlider': false
-    //         })
-    //     }
-    // }
-
-
-
     render() {
         return (
             <div className="wrap-slider">
-
                 <div className="top">
                     <div className="container">
                         <div className="row">
@@ -60,7 +32,7 @@ class Header extends Component {
 
                 <Navbar />
 
-                <Slider />
+                {this.props.slider === true && (<Slider />)}
 
             </div>
         )

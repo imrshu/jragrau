@@ -11,14 +11,13 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Header /> 
+                <Header slider={true} /> 
                 <Industries />
                 <WorkProcess />
                 <Client />
                 <Counter />
                 <ClientReviews />
-            </div>
-            
+            </div>  
         )
     }
 }
